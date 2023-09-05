@@ -1,0 +1,152 @@
+body {
+    overflow-x: hidden; /* Hide scrollbars */
+  }
+.location>h5{
+    color:black;
+    font-weight: 800;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+.location>p{
+    margin:0px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.vertical{
+    height:55px;
+    border:2px solid #f2f2f2
+}
+.searchdivision{
+    padding: 0px 12px;
+
+    border: 1px solid rgb(232,232,232);
+    border-radius: 12px;
+    background: rgb(248,248,248);
+    color:rgb(130,130,130);
+}
+.searchdivision>input{
+    border:none;
+    background-color: transparent;
+    width:40vw;
+    height:45px;
+}
+::placeholder{
+    font-size: 14px;
+    color:rgb(153,153,153);
+}
+.mycart{
+    background-color: #0d831e !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    border-radius: 10px !important;
+}
+
+.mycat{
+    display: flex;
+    
+
+    width:87%;
+    cursor: pointer;
+
+}
+.container1{
+    margin:auto;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    width:85%;
+    
+}
+.cont11{
+    white-space: nowrap;
+   
+}
+.cont11>img{
+    margin-right: 10px;
+}
+.dairy{
+    margin:auto;
+    width:85%;
+}
+.productlist{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    margin:auto;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    width:85%;
+
+}
+.prod1{
+    background: rgb(255, 255, 255);
+    border: 0.5px solid rgb(232, 232, 232);
+    box-shadow: rgba(0, 0, 0, 0.04) 2px 2px 8px;
+    border-radius: 8px;
+    width:190px;
+    margin-top: 10px;
+    
+
+}
+.para{
+    overflow: hidden;
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+    
+    
+    width: 100%;
+    height: 36px;
+    margin-bottom: 6px;
+    margin-left:5px;
+}
+.button2{
+    display:inline;
+    
+    
+    cursor: pointer;
+    width: 70px;
+    border: 1px solid rgb(49, 134, 22);
+    height: 35px;
+    color: rgb(49, 134, 22);
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Okra;
+    background-color: rgb(247, 255, 249);
+    border-radius: 0.375rem
+    
+
+}
+.gram{
+    
+    align-items: center;
+    display: flex;
+    height: 26px;
+    width: 100%;
+    margin-left: 5px;
+
+}
+#rate{
+    display: flex;
+    justify-content:space-between;
+    
+    align-items: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+.rate1{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+.foot{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+
